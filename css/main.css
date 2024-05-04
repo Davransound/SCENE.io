@@ -232,6 +232,12 @@ nav ul li {
 }
 /* Services */
 
+
+.group-classes {
+    line-height: 1.0; /* Пример значения интервала между строками */
+}
+
+
 .title {
 	margin: 0px auto;
 	padding:25px 0px 50px;
@@ -738,4 +744,11 @@ a.button2:hover {
 	  background-color: #6637e8d2; 
 	}
   }
-  
+ 
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px; /* Пример значения размера шрифта */
+        line-height: 1.5; /* Пример значения интервала между строками */
+    }
+}
