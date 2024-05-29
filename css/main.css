@@ -59,7 +59,7 @@ table {
   padding-left: 0;
 }
 h1 {
-	color: #fbde03;
+	color: #f9d628;
 	font-size: 38px;
 	font-weight: 800;
 	letter-spacing: -0.1rem;
@@ -171,7 +171,7 @@ nav {
     height: 80px;
     margin-top: -1px;
     position: fixed;
-	background-color: #fdd90ec4;
+	background-color: #F8D15C;
     z-index: 999;
     top: 0px;
     left: 0px;
@@ -283,8 +283,22 @@ nav ul li {
 	box-shadow: 0px 10px 25px -3px rgba(38,41,46,0.25);
 }
 /* portfolio */
+#two.services {
+	background-color: #F8D15C; /* светло-серый фон */
+    padding: 50px 0; /* отступы сверху и снизу */
+}
+
+
+.portfolio-caption a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust based on your design */
+    text-align: center;
+}
+
 .portfolio {
-	background-color: #f2d21d;
+	background-color: #F8D15C;
 	margin-top:80px;
 }
 .portfolio h6 {
@@ -396,14 +410,58 @@ a.button2:hover {
 	top:170px;
 	height: 50px;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0; /* Adjust as needed */
+}
+
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about .about-img {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Adjust based on your design */
+}
+
+.about .about-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about .about-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.separator {
+    width: 50px;
+    height: 5px;
+    background-color: #000; /* Adjust as needed */
+    margin: 20px 0;
+}
+
 /* contact */
 .contact {
-	background-color: #6637e8d2;;
+	background-color: #F8D15C;;
 	margin-top:100px;
 	padding-bottom: 50px;
 }
 .contact h6 {
-	color: #EBECED;
+	color: #fbfdff;
 }
 .contact-info h1:first-child {
 	color: #2C4755;
@@ -415,6 +473,7 @@ a.button2:hover {
 }
 
 .contact-info h1:nth-child(3) {
+	color:#ffffff;
 	margin:0px 50px 25px 190px;
 	font-size: 33px;
 }
@@ -427,7 +486,7 @@ a.button2:hover {
 	font-size: 17px;
 }
 .contact-info i:hover {
-	color: #fbde03;
+	color: #ffffff;
 }
 .contact-info ul li {
 	display: inline;
@@ -498,12 +557,12 @@ a.button2:hover {
 
 /* footer */
 .footer {
-	background-color: #f2d21d;
+	background-color: #fffffe;
 	padding: 20px;
 	text-align: center;
 }
 .footer h4 {
-	color: #fff;
+	color: #2C4755;
 	font-size: 10px;
 	letter-spacing: 0rem;
 	padding-top: 5px;
@@ -703,7 +762,7 @@ a.button2:hover {
 	nav {
 	  width: 100%; /* Ширина на весь экран */
 	  right: 0; /* Выравнивание по правому краю */
-	  background-color: #6637e8d2; /* Цвет фона */
+	  background-color: #F8D15C; /* Цвет фона */
 	}
 	
 	.menu-toggle {
@@ -741,7 +800,7 @@ a.button2:hover {
 	nav {
 	  width: 400px; 
 	  right: -400px;
-	  background-color: #6637e8d2; 
+	  background-color: #F8D15C; 
 	}
   }
  
