@@ -88,8 +88,9 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 290px;
-    padding: 11px 24px 11px 22px;
+    font-size: 2.25rem;
+    margin-top: 293px;
+    padding: 11px 21px 11px 19px;
   }
 } .u-section-2 {
   background-position: 50% 50%;
@@ -510,6 +511,7 @@
 }
 
 .u-section-3 .u-text-4 {
+  text-transform: uppercase;
   margin: 20px 0 0;
 }
 
@@ -557,6 +559,7 @@
 }
 
 .u-section-3 .u-text-6 {
+  text-transform: uppercase;
   margin: 20px 0 0;
 }
 
@@ -567,7 +570,7 @@
 }
 
 .u-section-3 .u-layout-cell-7 {
-  min-height: 447px;
+  min-height: 505px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
@@ -588,12 +591,13 @@
 }
 
 .u-section-3 .u-text-8 {
-  margin: 20px 1px 0;
+  text-transform: uppercase;
+  margin: 21px 1px 0;
 }
 
 .u-section-3 .u-text-9 {
   text-transform: uppercase;
-  margin: 22px 0 0;
+  margin: 21px 0 0;
 }
 
 .u-section-3 .u-layout-cell-8 {
@@ -804,6 +808,7 @@
 @media (max-width: 575px) {
   .u-section-3 .u-image-1 {
     min-height: 2618px;
+    background-position: 50% 50%;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 300px;
     --animation-custom_in-opacity: 0;
@@ -1031,6 +1036,7 @@
 .u-section-4 .u-text-2 {
   font-weight: 700;
   font-size: 2.25rem;
+  text-transform: uppercase;
   margin: 18px 0 60px;
 }
 
@@ -1107,7 +1113,6 @@
   }
 } .u-section-5 {
   background-image: linear-gradient(to bottom, rgba(41, 45, 51, 0), rgba(41, 45, 51, 0)), url('images/DALLE2025-02-2323.12.41-Aminimalistic1920x1080backgroundwithayellowandblackcolorschemerepresentingasenseofcommunityandcreativity.Thedesignfeaturessubtle.png');
-  background-position: 50% 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
 }
@@ -1160,6 +1165,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    background-position: 50% 50%;
+  }
+
   .u-section-5 .u-sheet-1 {
     min-height: 707px;
   }
@@ -1453,6 +1462,7 @@
   font-size: 3.75rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   width: 662px;
+  text-transform: uppercase;
   margin: 46px auto 0;
 }
 
@@ -1626,7 +1636,7 @@
   }
 
   .u-section-7 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 1388px;
   }
 
   .u-section-7 .u-text-2 {
@@ -1637,8 +1647,8 @@
   .u-section-7 .u-btn-1 {
     font-size: 1.875rem;
     margin-top: 20px;
-    padding-right: 68px;
-    padding-left: 67px;
+    padding-right: 21px;
+    padding-left: 20px;
   }
 } .u-section-8 {
   background-image: linear-gradient(to bottom, rgba(41, 45, 51, 1), rgba(41, 45, 51, 1)), linear-gradient(0deg, rgba(248, 209, 92, 1), rgba(248, 209, 92, 1));
@@ -1915,6 +1925,7 @@
 .u-section-9 .u-text-1 {
   font-weight: 400;
   font-size: 3.75rem;
+  text-transform: uppercase;
   margin: 41px auto 0;
 }
 
@@ -2690,6 +2701,7 @@
 
 .u-section-11 .u-text-1 {
   font-weight: 400;
+  text-transform: uppercase;
   margin: 53px auto 0;
 }
 
