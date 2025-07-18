@@ -1,3 +1,117 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 562px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 576px;
+  height: 576px;
+  margin: 67px 32px 0 auto;
+}
+
+.u-section-1 .u-image-1 {
+  width: 969px;
+  height: 751px;
+  margin: -821px -83px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: -415px 648px 0 15px;
+}
+
+.u-section-1 .u-btn-1 {
+  --radius: 20px;
+  font-weight: 700;
+  font-size: 2.25rem;
+  background-image: none;
+  margin: 32px auto 60px 15px;
+  padding: 18px 119px 18px 118px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 463px;
+    margin-left: 20px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 369px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 558px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -222px;
+    margin-right: 243px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 194px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 540px;
+    height: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 419px;
+    margin-top: -785px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -83px;
+    margin-right: 63px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 435px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 287px;
+    height: 287px;
+    margin-top: 224px;
+    margin-right: 3px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 390px;
+    height: 314px;
+    margin-top: -379px;
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    width: auto;
+    margin-top: -403px;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    font-size: 1.5rem;
+    margin-top: 13px;
+    padding: 2px 32px 3px 31px;
+  }
 }
